@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eduardoorm.github.io/eduardoorm.github.io/static/css/main.98c283a8.css",
+    "main.js": "/eduardoorm.github.io/eduardoorm.github.io/static/js/main.591d0417.js",
+    "static/js/787.f8d3e9ae.chunk.js": "/eduardoorm.github.io/eduardoorm.github.io/static/js/787.f8d3e9ae.chunk.js",
+    "index.html": "/eduardoorm.github.io/eduardoorm.github.io/index.html",
+    "main.98c283a8.css.map": "/eduardoorm.github.io/eduardoorm.github.io/static/css/main.98c283a8.css.map",
+    "main.591d0417.js.map": "/eduardoorm.github.io/eduardoorm.github.io/static/js/main.591d0417.js.map",
+    "787.f8d3e9ae.chunk.js.map": "/eduardoorm.github.io/eduardoorm.github.io/static/js/787.f8d3e9ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98c283a8.css",
+    "static/js/main.591d0417.js"
+  ]
+}
