@@ -1,0 +1,85 @@
+.sectionProjects h2{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.container-projects{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.container-card{
+    width: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 1rem;
+}
+
+.card {
+    width: 13rem;
+    height: 13rem;
+    background-color: #007696;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    margin: 1rem 0;
+
+}
+
+.card > a  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin:0px;
+}
+
+.card > a > figure > img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card > a > h5 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    margin:0px;
+}
+
+.figureCard{
+    width: 100%;
+    height: 8rem;
+    padding-left: 0;
+    margin:0px;
+}
+
+
+.figureProject{
+    width: 40%;
+    height: 25rem;
+}
+
+.figureProject img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 860px) {
+    .figureProject{
+        width: 60%;
+        text-align: center;
+        border:1px solid;
+        margin:auto;
+    } 
+}

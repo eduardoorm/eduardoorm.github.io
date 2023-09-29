@@ -1,0 +1,36 @@
+.sectionPhotos h2{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.containerPhotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.figurePhotos{
+    width: 25rem;
+    height: 30rem;
+    margin: 0px;
+    padding: 20px;
+}
+
+.figurePhotos > img{
+    width: 100%;
+    height: 100%;    
+}
+
+.figurePhotos:nth-child(1){
+    height: 25rem;
+ }
+
+.figurePhotos:nth-child(2){
+   width: 48rem;
+}
+
+.figurePhotos:nth-child(3){
+    width: 35rem;
+    height: 24rem;
+}
