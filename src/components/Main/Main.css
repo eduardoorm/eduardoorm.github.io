@@ -62,10 +62,8 @@ main{
 
 .intro{
     background-color: rgb(20, 20, 20);
-    width: 30rem;
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
-    height: 10rem;
     padding: 2rem;
     border-radius: 0.4rem;
 }
@@ -100,6 +98,38 @@ main{
 }
 
 
+@media (max-width: 860px) {
+ 
+.intro{
+  width: 100%;
+}
+.name, .nickName, .myRole{
+  white-space: normal;
+}
+
+}
+
+@media (max-width: 480px) {
+ 
+    .name, .nickName, .myRole{
+    font-size: 1.5rem;
+    }
+    .figurePresentation::before{
+      width:10rem;
+      height: 10rem;
+      left: -2rem;
+    }
+    .figurePresentation::after{
+      width:10rem;
+      height: 10rem;
+      bottom: -2rem;
+      right: -2rem;
+    }
+    .figurePresentation{
+      width: 10rem;
+      height: 10rem;
+    }
+  }
 
 @keyframes typing {
   from {

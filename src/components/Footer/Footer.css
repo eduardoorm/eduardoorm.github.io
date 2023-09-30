@@ -29,11 +29,18 @@
 .figureSectionContact{
     width: 4.5rem;
     margin: 0px;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.sectionContact>a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 15rem;
+    margin: 1rem;
 }
 
 h5{
@@ -42,7 +49,6 @@ h5{
 
 .figureSectionContact>img{
     width: 100%;
-    height: 100%;
 }
 
 footer{

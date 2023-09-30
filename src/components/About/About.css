@@ -5,6 +5,7 @@
     flex-wrap: wrap;
 }
 
+
 .figureAbout{
     width: 20rem;
     height: 20rem;
@@ -27,7 +28,9 @@
     text-align: center;
     font-size: 45px;
     width: 100%;
+    margin-top: 6rem;
 }
+
 
 @media (max-width: 860px) {
     .textAbout{
@@ -35,5 +38,17 @@
     } 
     .sectionAbout{
         flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+ 
+    .textAbout{
+       font-size:1rem;
+    }
+
+    .figureAbout{
+        width: auto;
+        height: 15rem;
     }
 }

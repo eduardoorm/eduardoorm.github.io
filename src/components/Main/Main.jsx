@@ -2,7 +2,6 @@ import React from 'react'
 import "./Main.css"
 export const Main = () => {
   return (
-    <main>
     <section className='presentation'>
         <figure className='figurePresentation'>
             <img className='imgPresentation' src='/images/eduardo.jpg'></img>
@@ -14,7 +13,6 @@ export const Main = () => {
         </section>
        
     </section>
-    </main>
 
   )
 }

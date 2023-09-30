@@ -7,30 +7,23 @@
 .containerPhotos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .figurePhotos{
     width: 25rem;
-    height: 30rem;
     margin: 0px;
     padding: 20px;
 }
 
 .figurePhotos > img{
     width: 100%;
-    height: 100%;    
+    height: 100%;
+    object-fit: cover;
 }
 
-.figurePhotos:nth-child(1){
+
+.figurePhotos{
+    width: 30rem;
     height: 25rem;
- }
-
-.figurePhotos:nth-child(2){
-   width: 48rem;
-}
-
-.figurePhotos:nth-child(3){
-    width: 35rem;
-    height: 24rem;
 }

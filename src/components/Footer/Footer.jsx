@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 export const Footer = () => {
   return (
-    <section className='sectionFooter'>
+    <section className='sectionFooter' id='footer'>
         <h2>Contact with me</h2>
         <figure className='figureSmileFooter'>
             <img src='https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beaming%20Face%20with%20Smiling%20Eyes.png'></img>

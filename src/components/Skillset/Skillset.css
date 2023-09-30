@@ -47,11 +47,24 @@
         overflow: hidden;
         border-radius: 3rem;
         padding: 1rem 2rem;
-        margin: 0rem 0.8rem 1rem 0.8rem;
+        margin: 0.5rem 0 0.5rem 0.5rem;
     }
 
     .skillSet > ul > li >span{
         font-weight: 600;
         font-size: 1.4rem;
+    }
+
+    .skillSet p {
+        margin: 1.7rem 0 1.7rem 3rem;
+    }
+    .skillSet > ul{
+        margin:0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skillSet > ul > li >span{
+        font-size: 1rem;
     }
 }

@@ -2,6 +2,14 @@
     color: white;
     text-align: center;
     font-size: 45px;
+    width: 100%;
+}
+
+.sectionProjects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-projects{
@@ -14,7 +22,7 @@
 
 
 .container-card{
-    width: 50rem;
+    width: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,7 +87,22 @@
     .figureProject{
         width: 60%;
         text-align: center;
-        border:1px solid;
         margin:auto;
     } 
+
+    .sectionProjects {
+    flex-direction: column;
+    }
+    .container-card{
+        width: 100%;
+    }
 }
+
+@media (max-width: 480px) {
+    .figureProject{
+        height: auto;
+    } 
+
+
+}
+
