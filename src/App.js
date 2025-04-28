@@ -15,8 +15,9 @@ function App() {
     <Main/>
     <About/>
     <Skillset/>
+    <Projects/>
     <Photos/>
-    <Footer></Footer>
+    <Footer/>
     </main>
     </div>
   );

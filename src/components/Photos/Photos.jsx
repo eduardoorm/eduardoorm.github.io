@@ -1,40 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Photos.css'; // Reemplaza con la ruta correcta a tu archivo de estilos
 
 const Photos = () => {
+  const [photos, setPhotos] = useState([]);
+
+  useEffect(() => {
+    // Cargar datos desde el archivo JSON
+    fetch('/data/photos.json')
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data) => setPhotos(data.photos))
+      .catch((error) => console.error('Error al cargar las fotos:', error));
+  }, []);
+
   return (
     <section className='sectionPhotos'>
       <h2>Photos</h2>
       <section className='containerPhotos'>
-        <figure className='figurePhotos'>
-          <img src="./images/flutterschool.jpg" alt="Imagen 1" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/fotoFestIca.jpg" alt="Imagen 2" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/extendedSanLuis.jpg" alt="Imagen 10" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/fotoPablo.jpeg" alt="Imagen 5" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/extendedica.jpg" alt="Imagen 3" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/speakerUtpPiura.jpeg" alt="Imagen 6" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/toulouseJam.jpeg" alt="Imagen 7" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/reunionOpen.jpg" alt="Imagen 9" />
-        </figure>
-        <figure className='figurePhotos'>
-          <img src="./images/gdgOpen.jpeg" alt="Imagen 8" />
-        </figure>
-
-        {/* Agrega más figuras según sea necesario */}
+        {photos.map((photo, index) => (
+          <figure className='figurePhotos' key={index}>
+            <img src={photo.src} alt={photo.alt} />
+          </figure>
+        ))}
       </section>
     </section>
   );

@@ -8,12 +8,16 @@ export const Skillset = () => {
       <p>Programming Languages</p>
       <ul>
         <li>
-           <img src='./images/skill/c++.png'/>
-           <span>C++</span>
+           <img src='./images/skill/typescript.png'/>
+           <span>TypeScript</span>
         </li>
         <li> 
            <img src='./images/skill/python.png'/>
            <span>Python</span>
+        </li>
+        <li> 
+           <img src='./images/skill/java.png'/>
+           <span>Java</span>
         </li>
         <li> 
            <img src='./images/skill/js.png'/>
@@ -27,41 +31,41 @@ export const Skillset = () => {
           <img src='./images/skill/react.png'/>
           <span> ReactJs</span>
         </li>
-        <li>
-          <img src='./images/skill/svelte.png'/>
-          <span>SvelteJs</span>
-        </li>
       </ul>
       <p>Backend Tools</p>
       <ul>
         <li> 
-          <img src='./images/skill/fastApi.png'/>
-          <span>FastAPI</span>
+          <img src='./images/skill/nestjs.png'/>
+          <span>Nest Js</span>
         </li>
         <li>
-           <img src='./images/skill/flask.png'/>
-           <span>Flask</span>
+           <img src='./images/skill/springboot.png'/>
+           <span>Spring Boot</span>
+        </li>
+        <li>
+           <img src='./images/skill/actions.png'/>
+           <span>GitHub Actions</span>
+        </li>
+        <li>
+           <img src='./images/skill/mongodb.svg'/>
+           <span>Mongo DB</span>
+        </li>
+        <li>
+           <img src='./images/skill/sqlserver.png'/>
+           <span>SQL Server</span>
         </li>
       </ul>
-      <p>ML Tools</p>
+      <p>Cloud Tools</p>
       <ul>
         <li> 
-          <img src='./images/skill/numpy.png'/>
-          <span>Numpy</span>
+          <img src='./images/skill/azure.png'/>
+          <span>Azure</span>
         </li>
         <li> 
-          <img src='./images/skill/pandas.png'/>
-          <span>Pandas</span>  
+          <img src='./images/skill/terraform.png'/>
+          <span>Terraform</span>
         </li>
-        <li> 
-          <img src='./images/skill/sickit.png'/>
-          <span>ScikitLearn</span>  
-        </li>
-        <li> 
-        <img src='./images/skill/tensorflow.png'/>
-          <span>TensorFlow</span>  
-        </li>
-      </ul>
+        </ul>
     </section>
   )
 }

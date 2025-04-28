@@ -1,0 +1,88 @@
+{
+  "photos": [
+    {
+        "src": "./images/talks/untels_charla.jpg",
+        "alt": "Imagen 1"
+      },
+    {
+        "src": "./images/talks/ng_conf.jpg",
+        "alt": "Imagen 1"
+      },
+    {
+        "src": "./images/talks/mvp.jpg",
+        "alt": "Imagen 1"
+      },
+    {
+        "src": "./images/talks/hackathon_rimac.jpg",
+        "alt": "Imagen 1"
+      },
+    {
+        "src": "./images/talks/github_campus_expert.jpg",
+        "alt": "Imagen 1"
+      },
+      {
+        "src": "./images/talks/cade.jpg",
+        "alt": "Imagen 1"
+      },
+      {
+        "src": "./images/talks/about_git.jpg",
+        "alt": "Imagen 7"
+      },
+      {
+        "src": "./images/talks/google_summit.jpg",
+        "alt": "Imagen 1"
+      },
+      {
+        "src": "./images/talks/devfest_ica_2024.jpg",
+        "alt": "Imagen 1"
+      },
+      {
+        "src": "./images/talks/google_summit_grupal.jpg",
+        "alt": "Imagen 1"
+      },
+    {
+      "src": "./images/flutterschool.jpg",
+      "alt": "Imagen 1"
+    },
+    {
+      "src": "./images/talks/gdg_premio.jpg",
+      "alt": "Imagen 2"
+    },
+    {
+        "src": "./images/talks/charla_untels.jpg",
+        "alt": "Imagen 10"
+      },
+    {
+      "src": "./images/talks/devfest2023.jpg",
+      "alt": "Imagen 10"
+    },
+    {
+      "src": "./images/talks/charla_utp_lima.jpg",
+      "alt": "Imagen 5"
+    },
+    {
+      "src": "./images/talks/charla_devfest_2024.jpg",
+      "alt": "Imagen 3"
+    },
+    {
+      "src": "./images/speakerUtpPiura.jpeg",
+      "alt": "Imagen 6"
+    },
+    {
+      "src": "./images/talks/charla_cusco.jpg",
+      "alt": "Imagen 7"
+    },
+    {
+      "src": "./images/talks/charla_chimbote.jpg",
+      "alt": "Imagen 9"
+    },
+    {
+      "src": "./images/talks/charla_arequipa.jpg",
+      "alt": "Imagen 8"
+    },
+        {
+      "src": "./images/talks/gdg_summit_peru.jpg",
+      "alt": "Imagen 8"
+    }
+  ]
+}
