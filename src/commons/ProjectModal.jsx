@@ -27,7 +27,7 @@ const ProjectModal = ({project, index}) => (
 				</Dialog.Description>
 
         <div className="links">
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+            <a href={project.githubLink} className="left_link_view_github" target="_blank" rel="noopener noreferrer">
               Ver en GitHub
             </a>
             {project.demoLink && (

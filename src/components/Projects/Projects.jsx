@@ -19,7 +19,6 @@ export const Projects = () => {
                 <div className='container-card'>
                     {projects.map((project, index) => (
                     <ProjectModal project={project} key={index}>
-
                     </ProjectModal>
                     ))}
                 </div>

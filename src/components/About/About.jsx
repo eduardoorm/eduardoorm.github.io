@@ -11,7 +11,7 @@ export const About = () => {
                        comprobadas en colaboración ágil y enfoque hacia arquitectura Cloud e Inteligencia Artificial.
                     </p>
                     <figure className='figureAbout'>
-                         <img className='imgAbout' src='/images/teaching.jpg'></img>
+                         <img className='imgAbout' src='/images/talks/ng_conf.jpg'></img>
                     </figure>
     </section>
   )

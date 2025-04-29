@@ -1,154 +1,143 @@
 {
   "projects": [
     {
-      "title": "Website Html, Css y Js",
-      "description": "Landing page responsive usando HTML, CSS y JavaScript puro.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/website-html-css-js",
-      "demoLink": "https://usuario.github.io/website-html-css-js",
-      "technologies": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      "title": "Web App - VueJS",
-      "description": "Aplicación web creada con VueJS para gestión de tareas.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/vue-webapp",
-      "demoLink": "https://vue-webapp.vercel.app",
-      "technologies": ["VueJS", "Vite", "CSS Modules"]
-    },
-    {
-      "title": "Api Node JS",
-      "description": "API REST construida con Node.js y Express para CRUD de usuarios.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/api-nodejs",
-      "technologies": ["Node.js", "Express", "MongoDB"]
-    },
-    {
-      "title": "Mobile app - Kotlin",
-      "description": "Aplicación móvil nativa para Android desarrollada en Kotlin.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/kotlin-mobileapp",
-      "technologies": ["Kotlin", "Android SDK"]
-    },
-    {
-      "title": "Desktop app - Java",
-      "description": "Aplicación de escritorio hecha en Java usando JavaFX.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/java-desktopapp",
-      "technologies": ["Java", "JavaFX"]
-    },
-    {
-      "title": "Project Hackathon",
-      "description": "Proyecto desarrollado durante una hackathon en 48 horas.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/hackathon-project",
-      "technologies": ["React", "Firebase", "TailwindCSS"]
-    },
-    {
       "title": "Project CI/CD",
       "description": "Implementación de pipelines CI/CD con GitHub Actions y Docker.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/ci-cd.png",
       "githubLink": "https://github.com/usuario/ci-cd-project",
       "technologies": ["GitHub Actions", "Docker", "AWS"]
     },
     {
-      "title": "Project Clean Architecture",
+      "title": "Project Hexagonal Architecture",
       "description": "Backend desarrollado siguiendo principios de Clean Architecture.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/clean-architecture",
-      "technologies": ["Node.js", "TypeScript", "PostgreSQL"]
+      "image": "./images/projects/hexagonal-architecture.png",
+      "githubLink": "https://github.com/eduardoorm/clean-architecture",
+      "technologies": ["Nest.js", "TypeScript"]
     },
     {
-      "title": "Project Firebase",
+      "title": "Microservices - Firebase",
       "description": "Web app utilizando Firebase Authentication y Firestore.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/firebase-project",
+      "image": "./images/projects/microservice.jpeg",
+      "githubLink": "https://github.com/eduardoorm/Recommendation-IA",
       "technologies": ["Firebase", "React", "CSS"]
     },
     {
       "title": "Project TypeScript",
       "description": "Aplicación frontend desarrollada completamente en TypeScript.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/typescript.png",
       "githubLink": "https://github.com/usuario/typescript-project",
       "technologies": ["TypeScript", "React", "Vite"]
     },
     {
       "title": "Project Functional Programming",
       "description": "Ejercicios y proyectos enfocados en programación funcional.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/programacion-funcional.png",
       "githubLink": "https://github.com/usuario/functional-programming",
       "technologies": ["JavaScript", "Ramda.js"]
     },
     {
       "title": "Project System Design",
       "description": "Documentación y diseño de sistemas escalables.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/system_desing.png",
       "githubLink": "https://github.com/usuario/system-design",
       "technologies": ["System Design", "Arquitectura de Software"]
     },
     {
-      "title": "Project Microservice Node",
-      "description": "Microservicios en Node.js comunicándose mediante RabbitMQ.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/microservices-node",
-      "technologies": ["Node.js", "RabbitMQ", "Docker"]
-    },
-    {
       "title": "Project Mongo DB",
       "description": "Proyecto de base de datos no relacional con MongoDB.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/mongodb.png",
       "githubLink": "https://github.com/usuario/mongodb-project",
       "technologies": ["MongoDB", "Mongoose", "Node.js"]
     },
     {
       "title": "Project Docker",
       "description": "Contenerización de aplicaciones usando Docker y Docker Compose.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/docker.jpg",
       "githubLink": "https://github.com/usuario/docker-project",
       "technologies": ["Docker", "Docker Compose"]
     },
     {
       "title": "Project Clean Code",
       "description": "Mejores prácticas de Clean Code aplicadas a proyectos reales.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/clean-code.png",
       "githubLink": "https://github.com/usuario/clean-code",
       "technologies": ["Clean Code", "Refactorización"]
     },
     {
       "title": "Project Python",
       "description": "Scripts y proyectos utilizando Python 3.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/python.png",
       "githubLink": "https://github.com/usuario/python-project",
       "technologies": ["Python", "Flask", "Pandas"]
     },
     {
-      "title": "Project Machine Learning",
-      "description": "Proyectos de machine learning usando scikit-learn.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/ml-project",
-      "technologies": ["Python", "scikit-learn", "Pandas"]
-    },
-    {
-      "title": "Project GCP",
+      "title": "Project Azure",
       "description": "Servicios cloud desplegados en Google Cloud Platform.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/azure.png",
       "githubLink": "https://github.com/usuario/gcp-project",
       "technologies": ["GCP", "Cloud Functions", "Firestore"]
     },
     {
-      "title": "Project React",
-      "description": "Aplicación SPA usando React y Hooks modernos.",
-      "image": "./images/cardImg.png",
-      "githubLink": "https://github.com/usuario/react-project",
-      "demoLink": "https://react-project.vercel.app",
-      "technologies": ["React", "Vite", "TailwindCSS"]
-    },
+      "title": "Project GraphQL",
+      "description": "API construida con Apollo Server y GraphQL.",
+      "image": "./images/projects/graphql.jpg",
+      "githubLink": "https://github.com/usuario/graphql-project",
+      "technologies": ["GraphQL", "Apollo Server", "Node.js"]
+    }
+    ,
     {
       "title": "Project GraphQL",
       "description": "API construida con Apollo Server y GraphQL.",
-      "image": "./images/cardImg.png",
+      "image": "./images/projects/graphql.jpg",
       "githubLink": "https://github.com/usuario/graphql-project",
       "technologies": ["GraphQL", "Apollo Server", "Node.js"]
+    }
+    ,
+    {
+      "title": "Project Apache Kafka",
+      "description": "Sistema de mensajería distribuido utilizando Apache Kafka.",
+      "image": "./images/projects/kafka.jpg",
+      "githubLink": "https://github.com/usuario/graphql-project",
+      "technologies": ["GraphQL", "Apollo Server", "Node.js"]
+    }
+    ,
+    {
+      "title": "Project Redis",
+      "description": "Sistema de mensajería distribuido utilizando Redis.",
+      "image": "./images/projects/redis.jpeg",
+      "githubLink": "https://github.com/usuario/redis-project",
+      "technologies": ["Redis", "Node.js"]
+    },
+    {
+      "title": "Project Terraform",
+      "description": "Sistema de mensajería distribuido utilizando Redis.",
+      "image": "./images/projects/terraform.png",
+      "githubLink": "https://github.com/usuario/redis-project",
+      "technologies": ["Redis", "Node.js"]
+    },
+    {
+      "title": "Google I/O - WebSite",
+      "description": "Landing page responsive usando HTML, CSS y JavaScript puro.",
+      "image": "./images/projects/web_io.png",
+      "githubLink": "https://github.com/eduardoorm/googleIO-ica",
+      "demoLink": "https://eduardoorm.github.io/googleIO-ica/",
+      "technologies": ["React JS"] 
+    },
+    {
+      "title": "Ecommerce - Website",
+      "description": "Proyecto de ecommerce desarrollado con React",
+      "image": "./images/projects/eccomerce_alura.png",
+      "githubLink": "https://github.com/usuario/vue-webapp",
+      "demoLink": "https://eduardoorm.github.io/Ecommerce-Challenge/",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Compute Up - Website",
+      "description": "API REST construida con Node.js y Express para CRUD de usuarios.",
+      "image": "./images/projects/computeup.png",
+      "githubLink": "https://github.com/eduardoorm/computerUp",
+      "demoLink": "https://computeup.pe/",
+      "technologies": ["Node.js", "Express", "MongoDB"]
     }
   ]
 }

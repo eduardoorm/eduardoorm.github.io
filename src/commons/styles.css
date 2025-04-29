@@ -24,7 +24,9 @@ input {
 	padding: 8px;
 	border-radius: 7px;
 }
-
+.left_link_view_github{
+	margin-right: 1rem;
+}
 .DialogContent {
 	background-color: white;
 	border-radius: 6px;
